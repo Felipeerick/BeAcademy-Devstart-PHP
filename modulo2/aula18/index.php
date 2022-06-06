@@ -14,11 +14,8 @@ $u3 -> getName();
 //var_dump($u3);*/
 
 
-//$c3 = new Cliente("email", "senha", "lepe");
-//var_dump($c3);
+$c3 = new Cliente("email", "senha", "lepe");
+var_dump($c3);
 
-//$gg3 = new GestorGeral(3200.00, 100);
-//var_dump($gg3);
-
-$cpf="234545";
-Validar::validarCPF($cpf);
+$gg3 = new GestorGeral(3200.00, 100);
+var_dump($gg3);
